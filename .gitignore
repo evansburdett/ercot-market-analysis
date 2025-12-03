@@ -1,0 +1,16 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore Data files (Optional but recommended for datasets)
+# You generally don't want to commit large CSVs to GitHub
+*.csv
+*.xlsx
+data/
+
+# Ignore system files
+.DS_Store
